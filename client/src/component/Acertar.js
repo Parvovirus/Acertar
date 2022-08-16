@@ -18,7 +18,7 @@ function Acertar() {
   //Las comprobaciones
   function comprobar(e) {
     if (secreto == e) {
-      console.log("OLEEE!!! Tardaste:" + count + " intentos");
+     alert("OLEEE!!! Tardaste:" + count + " intentos");
     } else if (e < secreto) {
       setCount(count + 1);
       setIntervaloI(e);
